@@ -1,7 +1,6 @@
 import atexit
 import datetime
 import os
-from time import strptime
 
 from sqlalchemy import create_engine, String, DateTime, func
 from sqlalchemy.orm import sessionmaker, DeclarativeBase, Mapped, mapped_column
